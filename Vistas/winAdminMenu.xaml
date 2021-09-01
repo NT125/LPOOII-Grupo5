@@ -5,34 +5,36 @@
     <Grid>
         
         <!--menú superior-->
-        <Menu Height="34" Name="menTopMenu" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Top" VerticalContentAlignment="Bottom" Background="#FF585858" ClipToBounds="True">
-            <Label Content="Usuario:" FontFamily="FreeSans" FontSize="16" VerticalAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFE2E2E2" IsEnabled="False" />
-            <Label Content="ADMIN " FontFamily="FreeSans" FontSize="16" VerticalAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFE2E2E2" IsEnabled="False" />
-        </Menu>        
-        <Button Content="Cerrar Sesión" Height="34" HorizontalAlignment="Right" Margin="713,0,0,0" FontFamily="FreeSans" FontSize="13" Name="btnLogout" VerticalAlignment="Top" Width="100" Background="#E1EF5050" BorderBrush="#001D0000" Foreground="White" ClipToBounds="True" BorderThickness="0" ForceCursor="False" />
-        
-        <Grid Height="352" HorizontalAlignment="Left" Margin="12,40,0,0" Name="grid1" VerticalAlignment="Top" Width="787" Grid.Row="5"></Grid>
+        <DockPanel Name="dpTopMenu" Height="34" HorizontalAlignment="Stretch" VerticalAlignment="Top" Width="Auto">
+            <TextBlock Name="txtUserLabel" Text="Usuario:" FontFamily="FreeSans" FontSize="16" VerticalAlignment="Center" Foreground="Silver" Padding="10"/>
+            <TextBlock Name="txtUserName" Text="username" FontFamily="FreeSans" FontSize="16" VerticalAlignment="Center" Foreground="Silver" Padding="5"/>
+            <Button Name="btnLogout" Content="Cerrar Sesión" Height="34" HorizontalAlignment="Right" FontFamily="FreeSans" FontSize="13" VerticalAlignment="Top" Width="100" Background="#E1EF5050" BorderBrush="#001D0000" Foreground="White" ClipToBounds="True"/>
+        </DockPanel>
 
-        <!--Grid de contenido principal-->
-        <Grid Height="Auto" HorizontalAlignment="Left" Margin="12,40,0,0" Name="grid2" VerticalAlignment="Stretch" Width="200">
+        <!--Grid de menú principal-->
+        <Grid HorizontalAlignment="Stretch" Margin="12,40,0,0" Name="mainGrid" VerticalAlignment="Stretch" Height="auto" Width="auto">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="251*" />
+                <ColumnDefinition Width="536*" />
+            </Grid.ColumnDefinitions>
             
-            <!--creación de filas-->
-            <Grid.RowDefinitions>
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-            </Grid.RowDefinitions>
-            
-            <Button Content="Button" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="button1" VerticalAlignment="Stretch" Width="Auto" />
-            <Button Content="Button" Grid.Row="1" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="button2" VerticalAlignment="Stretch" Width="Auto" Padding="0" />
-            <Button Content="Button" Grid.Row="2" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="button3" VerticalAlignment="Stretch" Width="Auto" />
-            <Button Content="Button" Grid.Row="3" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="button4" VerticalAlignment="Stretch" Width="Auto" />
-            <Button Content="Button" Grid.Row="4" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="button5" VerticalAlignment="Stretch" Width="Auto" />
+            <!--Grid Botones-->
+            <Grid Grid.ColumnSpan="1" Height="Auto" HorizontalAlignment="Stretch" Name="grid1" VerticalAlignment="Stretch" Width="Auto">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Button Content="Gestionar Usuarios" Grid.Row="0" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnUsuarios" VerticalAlignment="Stretch" Width="Auto"/>
+                <Button Content="Gestionar Artículos" Grid.Row="1" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnArticulos" VerticalAlignment="Stretch" Width="Auto"/>
+                <Button Content="Gestionar Familias" Grid.Row="2" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnFamilia" VerticalAlignment="Stretch" Width="Auto" />
+                <Button Content="Gestionar Categorías" Grid.Row="3" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnCategoria" VerticalAlignment="Stretch" Width="Auto" />
+                <Button Content="Gestionar Unidades de Medida" Grid.Row="4" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnMedidas" VerticalAlignment="Stretch" Width="Auto" />
+            </Grid>
         </Grid>
-        
         <!--hora-->
-        <Label Content="Label" Height="28" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontFamily="FreeSans" FontSize="12" Name="lblTime" FlowDirection="LeftToRight" Width="42" IsEnabled="True" ForceCursor="True" ClipToBounds="True" Foreground="#FFEBEBEB" />
+        <Label Content="Label" Height="28" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontFamily="FreeSans" FontSize="12" Name="lblTime" FlowDirection="LeftToRight" Width="42" IsEnabled="True" ForceCursor="True" ClipToBounds="True" Foreground="#FFEBEBEB" />        
     </Grid>
 </Window>

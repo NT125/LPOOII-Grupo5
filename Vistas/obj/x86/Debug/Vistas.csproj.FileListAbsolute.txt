@@ -39,3 +39,23 @@ C:\Users\admin\Desktop\lpooII-grupo-5\lpooII-grupo-5\Vistas\obj\x86\Debug\Vistas
 C:\Users\admin\Desktop\lpooII-grupo-5\lpooII-grupo-5\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
 C:\Users\admin\Desktop\lpooII-grupo-5\lpooII-grupo-5\Vistas\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\admin\Desktop\lpooII-grupo-5\lpooII-grupo-5\Vistas\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.exe
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.pdb
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\bin\Debug\Vistas.exe
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\bin\Debug\Vistas.pdb
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\bin\Debug\ClasesBase.dll
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\bin\Debug\ClasesBase.pdb
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\MainWindow.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winAdminMenu.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winLogin.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winWaiterMenu.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\MainWindow.g.cs
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winAdminMenu.g.cs
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winLogin.g.cs
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winWaiterMenu.g.cs
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\App.g.cs
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.g.resources
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache

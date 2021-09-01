@@ -40,6 +40,102 @@ namespace Vistas {
     /// </summary>
     public partial class winWaiterMenu : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 8 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.DockPanel dpTopMenu;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 9 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBlock txtUserLabel;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 10 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBlock txtUserName;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 11 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnLogout;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 15 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Grid mainGrid;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 22 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Grid grid1;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 30 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnUsuarios;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 31 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnArticulos;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 32 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnFamilia;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 33 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnCategoria;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 34 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnMedidas;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 38 "..\..\..\winWaiterMenu.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label lblTime;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +164,45 @@ namespace Vistas {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.dpTopMenu = ((System.Windows.Controls.DockPanel)(target));
+            return;
+            case 2:
+            this.txtUserLabel = ((System.Windows.Controls.TextBlock)(target));
+            return;
+            case 3:
+            this.txtUserName = ((System.Windows.Controls.TextBlock)(target));
+            return;
+            case 4:
+            this.btnLogout = ((System.Windows.Controls.Button)(target));
+            return;
+            case 5:
+            this.mainGrid = ((System.Windows.Controls.Grid)(target));
+            return;
+            case 6:
+            this.grid1 = ((System.Windows.Controls.Grid)(target));
+            return;
+            case 7:
+            this.btnUsuarios = ((System.Windows.Controls.Button)(target));
+            return;
+            case 8:
+            this.btnArticulos = ((System.Windows.Controls.Button)(target));
+            return;
+            case 9:
+            this.btnFamilia = ((System.Windows.Controls.Button)(target));
+            return;
+            case 10:
+            this.btnCategoria = ((System.Windows.Controls.Button)(target));
+            return;
+            case 11:
+            this.btnMedidas = ((System.Windows.Controls.Button)(target));
+            return;
+            case 12:
+            this.lblTime = ((System.Windows.Controls.Label)(target));
+            return;
+            }
             this._contentLoaded = true;
         }
     }
