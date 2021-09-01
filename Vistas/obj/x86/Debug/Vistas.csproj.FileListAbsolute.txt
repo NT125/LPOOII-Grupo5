@@ -61,3 +61,26 @@ D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\D
 D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
 D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winMesas.baml
 D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winMesas.g.cs
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\bin\Debug\Vistas.exe
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\bin\Debug\Vistas.pdb
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\MainWindow.baml
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winAdminMenu.baml
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winLogin.baml
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winMesas.baml
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winWaiterMenu.baml
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\MainWindow.g.cs
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winAdminMenu.g.cs
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winLogin.g.cs
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winMesas.g.cs
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winWaiterMenu.g.cs
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\App.g.cs
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.g.resources
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\GenerateResource.write.1.tlog
