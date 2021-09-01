@@ -22,5 +22,10 @@ namespace Vistas
         {
             InitializeComponent();
         }
+
+        private void btnMesa_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

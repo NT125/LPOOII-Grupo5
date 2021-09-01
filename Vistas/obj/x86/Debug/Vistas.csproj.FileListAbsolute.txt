@@ -59,3 +59,5 @@ D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\D
 D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.g.resources
 D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
 D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winMesas.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winMesas.g.cs
