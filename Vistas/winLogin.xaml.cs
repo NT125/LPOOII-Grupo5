@@ -96,13 +96,19 @@ namespace Vistas
         {
             if (txtUserLogin.Text == "Admin" && pwdPassLogin.Password == "123")
             {
-                MessageBox.Show("Sesión iniciada como Administrador", "Bienvenuti", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Sesión iniciada como Administrador", "Bienvenido", MessageBoxButton.OK, MessageBoxImage.Information);
+                winAdminMenu winAdminMenu = new winAdminMenu();
+                winAdminMenu.Show();
+                this.Close();
             }
             else
             {
                 if (txtUserLogin.Text == "Mozo" && pwdPassLogin.Password == "123")
                 {
-                    MessageBox.Show("Sesión iniciada como Mozo", "Bienvenuti", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Sesión iniciada como Mozo", "Bienvenido", MessageBoxButton.OK, MessageBoxImage.Information);
+                    winWaiterMenu winMozoVendedorMenu = new winWaiterMenu();
+                    winMozoVendedorMenu.Show();
+                    this.Close();
                 }
                 else
                 {
