@@ -22,5 +22,12 @@ namespace Vistas
         {
             InitializeComponent();
         }
+
+        private void btnArticulos_Click(object sender, RoutedEventArgs e)
+        {
+            winArticulos winArticulos = new winArticulos();
+            winArticulos.Show();
+            this.Close();
+        }
     }
 }

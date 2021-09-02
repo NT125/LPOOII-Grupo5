@@ -27,5 +27,10 @@ namespace Vistas
         {
 
         }
+
+        private void btnFamilia_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

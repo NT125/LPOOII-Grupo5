@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Vistas.winAdminMenu"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Menú de Administrador - NOMBRE DE LA EMPRESA" Height="464" Width="833" Background="#FF313131" MinWidth="833" MinHeight="464" WindowState="Maximized" Topmost="False" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow">
+        Title="Menú de Administrador - NOMBRE DE LA EMPRESA" Height="464" Width="833" Background="#FF313131" MinWidth="833" MinHeight="464" WindowState="Normal" Topmost="False" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow">
     <Grid>
         
         <!--menú superior-->
@@ -28,7 +28,7 @@
                     <RowDefinition />
                 </Grid.RowDefinitions>
                 <Button Content="Gestionar Usuarios" Grid.Row="0" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnUsuarios" VerticalAlignment="Stretch" Width="Auto"/>
-                <Button Content="Gestionar Artículos" Grid.Row="1" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnArticulos" VerticalAlignment="Stretch" Width="Auto"/>
+                <Button Content="Gestionar Artículos" Grid.Row="1" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnArticulos" VerticalAlignment="Stretch" Width="Auto" Click="btnArticulos_Click" />
                 <Button Content="Gestionar Familias" Grid.Row="2" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnFamilia" VerticalAlignment="Stretch" Width="Auto" />
                 <Button Content="Gestionar Categorías" Grid.Row="3" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnCategoria" VerticalAlignment="Stretch" Width="Auto" />
                 <Button Content="Gestionar Unidades de Medida" Grid.Row="4" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnMedidas" VerticalAlignment="Stretch" Width="Auto" />

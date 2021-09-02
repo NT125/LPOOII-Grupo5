@@ -27,7 +27,7 @@
                 </Grid.RowDefinitions>
                 <Button Content="Pedidos" Grid.Row="0" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnPedidos" VerticalAlignment="Stretch" Width="Auto"/>
                 <Button Content="Mesas" Grid.Row="1" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnMesa" VerticalAlignment="Stretch" Width="Auto" Click="btnMesa_Click" />
-                <Button Content="Clientes" Grid.Row="2" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnFamilia" VerticalAlignment="Stretch" Width="Auto" />
+                <Button Content="Clientes" Grid.Row="2" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnFamilia" VerticalAlignment="Stretch" Width="Auto" Click="btnFamilia_Click" />
             </Grid>
         </Grid>
         <!--hora-->
