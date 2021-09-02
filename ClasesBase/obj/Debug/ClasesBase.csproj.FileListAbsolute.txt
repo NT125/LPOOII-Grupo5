@@ -2,3 +2,7 @@ D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\lpooII-grupo-5\ClasesBase\bin\
 D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\lpooII-grupo-5\ClasesBase\bin\Debug\ClasesBase.pdb
 D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\lpooII-grupo-5\ClasesBase\obj\Debug\ClasesBase.dll
 D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\lpooII-grupo-5\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\ClasesBase\obj\Debug\ClasesBase.pdb

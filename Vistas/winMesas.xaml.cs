@@ -22,5 +22,22 @@ namespace Vistas
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            btnMesa11.Background = Brushes.Red;
+            btnMesa11.Foreground = Brushes.White;
+            btnMesa17.Background = Brushes.Red;
+            btnMesa17.Foreground = Brushes.White; 
+        }
+
+        private void btnMesa17_Click(object sender, RoutedEventArgs e)
+        {
+            if(btnMesa17.Background == Brushes.Red){
+                MessageBox.Show("Mesa ocupada");
+            }
+        }
+
+        
     }
 }

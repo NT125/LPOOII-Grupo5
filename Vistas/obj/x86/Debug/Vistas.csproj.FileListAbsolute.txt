@@ -84,3 +84,25 @@ C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.g.r
 C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
 C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\admin\Documents\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\bin\Debug\Vistas.exe
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\bin\Debug\Vistas.pdb
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\MainWindow.baml
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winAdminMenu.baml
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winLogin.baml
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winMesas.baml
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winWaiterMenu.baml
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\MainWindow.g.cs
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winAdminMenu.g.cs
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winLogin.g.cs
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winMesas.g.cs
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winWaiterMenu.g.cs
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\App.g.cs
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.g.resources
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
