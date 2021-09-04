@@ -5,36 +5,76 @@
     <Grid>
         
         <!--menú superior-->
-        <DockPanel Name="dpTopMenu" Height="34" HorizontalAlignment="Stretch" VerticalAlignment="Top" Width="Auto">
-            <TextBlock Name="txtUserLabel" Text="Usuario:" FontFamily="FreeSans" FontSize="16" VerticalAlignment="Center" Foreground="Silver" Padding="10"/>
-            <TextBlock Name="txtUserName" Text="username" FontFamily="FreeSans" FontSize="16" VerticalAlignment="Center" Foreground="Silver" Padding="5"/>
-            <Button Name="btnLogout" Content="Cerrar Sesión" Height="34" HorizontalAlignment="Right" FontFamily="FreeSans" FontSize="13" VerticalAlignment="Top" Width="100" Background="#E1EF5050" BorderBrush="#001D0000" Foreground="White" ClipToBounds="True"/>
-        </DockPanel>
-
         <!--Grid de menú principal-->
-        <Grid HorizontalAlignment="Stretch" Margin="12,40,0,0" Name="mainGrid" VerticalAlignment="Stretch" Height="auto" Width="auto">
+        <Grid HorizontalAlignment="Stretch" Margin="0,0,0,0" Name="mainGrid" VerticalAlignment="Stretch" Height="auto" Width="auto">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="251*" />
-                <ColumnDefinition Width="536*" />
+                <ColumnDefinition Width="208*" MaxWidth="220" />
+                <ColumnDefinition Width="603*" />
             </Grid.ColumnDefinitions>
             
             <!--Grid Botones-->
-            <Grid Grid.ColumnSpan="1" Height="Auto" HorizontalAlignment="Stretch" Name="grid1" VerticalAlignment="Stretch" Width="Auto">
+            <Grid Grid.ColumnSpan="1" Background="#FF393939">
+
                 <Grid.RowDefinitions>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
+                    <RowDefinition Height="325*" />
+                    <RowDefinition Height="100*" />
                 </Grid.RowDefinitions>
-                <Button Content="Gestionar Usuarios" Grid.Row="0" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnUsuarios" VerticalAlignment="Stretch" Width="Auto"/>
-                <Button Content="Gestionar Artículos" Grid.Row="1" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnArticulos" VerticalAlignment="Stretch" Width="Auto" Click="btnArticulos_Click" />
-                <Button Content="Gestionar Familias" Grid.Row="2" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnFamilia" VerticalAlignment="Stretch" Width="Auto" />
-                <Button Content="Gestionar Categorías" Grid.Row="3" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnCategoria" VerticalAlignment="Stretch" Width="Auto" />
-                <Button Content="Gestionar Unidades de Medida" Grid.Row="4" Height="Auto" HorizontalAlignment="Stretch" Margin="10" Name="btnMedidas" VerticalAlignment="Stretch" Width="Auto" />
+                <StackPanel Orientation="Vertical" VerticalAlignment="Top" MinWidth="0" Height="325">
+                    <RadioButton Content="Inicio" FontSize="20" Height="50" Foreground="White" Style="{StaticResource BotondeMenu}" Checked="informacionClick" Name="rb1" MouseEnter="rb1_MouseEnter"></RadioButton>
+                    <RadioButton Content="Gestion de Usuarios" FontSize="12" Height="50" Foreground="White" Style="{StaticResource BotondeMenu}" Checked="informacionClick" Name="rb2" MouseEnter="rb2_MouseEnter"></RadioButton>
+                    <RadioButton Content="Gestion de Articulo" FontSize="12" Height="50" Foreground="White" Style="{StaticResource BotondeMenu}" Checked="informacionClick" Name="rb3" MouseEnter="rb3_MouseEnter"></RadioButton>
+                    <RadioButton Content="Gestion de Familia" FontSize="12" Height="50" Foreground="White" Style="{StaticResource BotondeMenu}" Checked="informacionClick"  HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Name="rb4" MouseEnter="rb4_MouseEnter"></RadioButton>
+                    <RadioButton Content="Gestion de Categoria" FontSize="12" Height="50" Foreground="White" Style="{StaticResource BotondeMenu}" Checked="informacionClick"  HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Name="rb5" MouseEnter="rb5_MouseEnter"></RadioButton>
+                    <RadioButton Content="Gestion de Unidad de Medidas" FontSize="12" Height="50" Foreground="White" Style="{StaticResource BotondeMenu}" Checked="informacionClick"  VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Name="rb6" MouseEnter="rb6_MouseEnter"></RadioButton>
+                </StackPanel>
+                <TextBlock Foreground="White" Grid.Row="1" Height="24" HorizontalAlignment="Center" Margin="0,0,0,24" Name="textBlock1" Text="Ignacio Torres (Admin)" VerticalAlignment="Bottom" />
+                <Button Name="btnLogout" Content="Cerrar Sesión" Height="22" FontFamily="FreeSans" FontSize="13" Width="88" Background="#E1EF5050" BorderBrush="#001D0000" Foreground="White" ClipToBounds="True" Margin="7" Grid.Row="1" VerticalAlignment="Bottom" />
+                <Image Name="image1" Stretch="Fill" Source="/Vistas;component/Images/icono-usuario.png" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,54" Height="46" Width="50" />
             </Grid>
+            <Image Name="logoholdem" Source="/Vistas;component/Images/holdemlogo.png" Stretch="Uniform" Width="Auto" HorizontalAlignment="Center" Height="Auto" VerticalAlignment="Center" Grid.Column="1" Margin="90,0" />
+
+            <!--Grid de Gestion de Usuarios-->
+            <Grid Grid.Column="1" Name="griditem">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="92*" />
+                    <RowDefinition Height="333*" />
+                </Grid.RowDefinitions>
+                <TextBlock  Name="textBlock2" Text="USUARIO" Foreground="White" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+
+            <Grid Grid.Column="1" Name="grdArticulo">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="92*" />
+                    <RowDefinition Height="333*" />
+                </Grid.RowDefinitions>
+                <TextBlock  Name="txtArticulo" Text="ARTICULO" Foreground="White" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+
+            <Grid Grid.Column="1" Name="grdFamilia">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="92*" />
+                    <RowDefinition Height="333*" />
+                </Grid.RowDefinitions>
+                <TextBlock  Name="txtFamilia" Text="FAMILIA" Foreground="White" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+
+            <Grid Grid.Column="1" Name="grdCategoria">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="92*" />
+                    <RowDefinition Height="333*" />
+                </Grid.RowDefinitions>
+                <TextBlock  Name="txtCategoria" Text="CATEGORIA" Foreground="White" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+
+            <Grid Grid.Column="1" Name="grdUnidad">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="92*" />
+                    <RowDefinition Height="333*" />
+                </Grid.RowDefinitions>
+                <TextBlock  Name="txtUnidad" Text="UNIDAD DE MEDIDA" Foreground="White" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+
         </Grid>
-        <!--hora-->
-        <Label Content="Label" Height="28" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontFamily="FreeSans" FontSize="12" Name="lblTime" FlowDirection="LeftToRight" Width="42" IsEnabled="True" ForceCursor="True" ClipToBounds="True" Foreground="#FFEBEBEB" />        
+        
     </Grid>
 </Window>

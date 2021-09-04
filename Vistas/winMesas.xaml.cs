@@ -31,10 +31,21 @@ namespace Vistas
             btnMesa17.Foreground = Brushes.White; 
         }
 
-        private void btnMesa17_Click(object sender, RoutedEventArgs e)
+    
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            if(btnMesa17.Background == Brushes.Red){
-                MessageBox.Show("Mesa ocupada");
+            btnMesa17.Background = Brushes.Green;
+            btnMesa11.Background = Brushes.Green;
+        }
+
+        private void preguntarMesa(object sender, RoutedEventArgs e)
+        {
+            Button mesa=sender as Button;
+            if (mesa.Background == Brushes.Red)
+            {
+                MessageBox.Show("Esta mesa esta Ocupada");
+            }else{
+                MessageBox.Show("Esta mesa esta Desocupada");
             }
         }
 
