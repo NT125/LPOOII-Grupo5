@@ -68,6 +68,9 @@
     <Compile Include="winClientes.xaml.cs">
       <DependentUpon>winClientes.xaml</DependentUpon>
     </Compile>
+    <Compile Include="winLogin.xaml.cs">
+      <DependentUpon>winLogin.xaml</DependentUpon>
+    </Compile>
     <Compile Include="winMesas.xaml.cs">
       <DependentUpon>winMesas.xaml</DependentUpon>
     </Compile>
@@ -101,6 +104,10 @@
     <Page Include="winClientes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="winLogin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="winMesas.xaml">
       <SubType>Designer</SubType>

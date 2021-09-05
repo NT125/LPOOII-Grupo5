@@ -21,8 +21,9 @@ namespace Vistas
         public winAdminMenu()
         {
             InitializeComponent();
+            ocultarGrid();
             rb1.IsChecked = true;
-
+            logoholdem.Visibility = System.Windows.Visibility.Visible;
         }
 
         private void btnArticulos_Click(object sender, RoutedEventArgs e)
