@@ -34,7 +34,45 @@ namespace Vistas
             txtUserLogin.Foreground = Brushes.Gray;
 
             pwdPassLogin.Password = "PWD";
-            pwdPassLogin.Foreground = Brushes.Gray;            
+            pwdPassLogin.Foreground = Brushes.Gray;
+        }
+
+        private void moveWindow(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                DragMove();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void minimizeWindow(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                this.WindowState = WindowState.Minimized;
+            }
+            catch (Exception ex)
+            {
+
+                //throw;
+            }
+        }
+
+        private void closeWindow(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                Close();
+            }
+            catch (Exception ex)
+            {
+
+                //throw;
+            }
         }
 
         private void UsrGotFocus(object sender, RoutedEventArgs e)
@@ -42,11 +80,11 @@ namespace Vistas
             if (txtUserLogin.Text == "Usuario")
             {
                 txtUserLogin.Text = "";
-                txtUserLogin.Foreground = Brushes.Black;
+                txtUserLogin.Foreground = Brushes.White;
             }
             else
             {
-                txtUserLogin.Foreground = Brushes.Black;
+                txtUserLogin.Foreground = Brushes.White;
             }
 
         }
@@ -56,11 +94,11 @@ namespace Vistas
             if (pwdPassLogin.Password == "PWD")
             {
                 pwdPassLogin.Password = "";
-                pwdPassLogin.Foreground = Brushes.Black;
+                pwdPassLogin.Foreground = Brushes.White;
             }
             else
             {
-                pwdPassLogin.Foreground = Brushes.Black;
+                pwdPassLogin.Foreground = Brushes.White;
             }
 
         }
@@ -70,7 +108,7 @@ namespace Vistas
         {
             if (txtUserLogin.Text != "")
             {
-                txtUserLogin.Foreground = Brushes.DarkSlateGray;
+                txtUserLogin.Foreground = Brushes.LightGray;
             }
             else
             {
@@ -83,7 +121,7 @@ namespace Vistas
         {
             if (pwdPassLogin.Password != "")
             {
-                pwdPassLogin.Foreground = Brushes.DarkSlateGray;
+                pwdPassLogin.Foreground = Brushes.LightGray;
             }
             else
             {

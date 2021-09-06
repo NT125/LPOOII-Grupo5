@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/onedrive.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/mesita.png")]
 
 

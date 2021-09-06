@@ -140,3 +140,41 @@ C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOO
 C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winClientes.baml
 C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winArticulos.g.cs
 C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\winClientes.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\bin\Debug\Vistas.exe
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\bin\Debug\Vistas.pdb
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Dictionary1.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\MainWindow.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winAdminMenu.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winArticulos.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winClientes.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winLogin.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winMesas.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winWaiterMenu.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\App.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\MainWindow.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winAdminMenu.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winArticulos.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winClientes.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winLogin.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winMesas.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\winWaiterMenu.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\App.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.g.resources
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\botonDeMesas.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\botonDeMesas.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\pruebaboton.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\pruebaboton.g.cs
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\Dictionary1.baml
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\Dictionary1.baml
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\App.baml
+C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
