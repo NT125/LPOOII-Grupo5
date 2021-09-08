@@ -23,32 +23,26 @@ namespace Vistas
             InitializeComponent();
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            btnMesa11.Background = Brushes.Red;
-            btnMesa11.Foreground = Brushes.White;
-            btnMesa17.Background = Brushes.Red;
-            btnMesa17.Foreground = Brushes.White; 
-        }
-
     
-       // private void Grid_Loaded(object sender, RoutedEventArgs e)
-       // {
-       //     btnMesa17.Background = Brushes.Green;
-       //     btnMesa11.Background = Brushes.Green;
-       // }
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+        
+            btnMesa17.Background = Brushes.Tomato;
+            btnMesa11.Background = Brushes.Tomato;
+        }
 
         private void preguntarMesa(object sender, RoutedEventArgs e)
         {
+           
             Button mesa=sender as Button;
-            if (mesa.Background == Brushes.Red)
-            {
+
+
+            if (mesa.Background == Brushes.Tomato){
                 MessageBox.Show("Esta mesa esta Ocupada");
             }else{
                 MessageBox.Show("Esta mesa esta Desocupada");
             }
         }
-
         
     }
 }

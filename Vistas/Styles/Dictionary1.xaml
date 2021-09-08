@@ -28,13 +28,13 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Button Background="{TemplateBinding Background}" Margin="20,5" MaxWidth="150">
+                        <Button Background="{TemplateBinding Background}" Margin="10,5" MaxWidth="150">
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="80*" />
                                     <RowDefinition Height="220*" />
                                 </Grid.RowDefinitions>
-                                <TextBlock FontFamily="Arial" Foreground="White" Height="Auto" HorizontalAlignment="Center" Name="textBlock1" Text="{TemplateBinding Content}" FontSize="10" VerticalAlignment="Stretch"/>
+                                <TextBlock FontFamily="Arial" Foreground="Black" Height="Auto" HorizontalAlignment="Center" Name="textBlock1" Text="{TemplateBinding Content}" FontSize="15" VerticalAlignment="Stretch"/>
                                 <Image Grid.Row="1" Name="image1" Source="/Vistas;component/Images/mesita.png"/>
                             </Grid>
                         </Button>
