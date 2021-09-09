@@ -6,7 +6,9 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Styles/Dictionary1.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Styles/StylesLabelsForm.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Styles/StylesTextBoxForm.xaml"></ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+        </ResourceDictionary>  
     </Application.Resources>
 </Application>

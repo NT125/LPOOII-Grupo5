@@ -19,19 +19,26 @@ namespace Vistas
     /// </summary>
     public partial class winClientes : Window
     {
-        Cliente oClientes = new Cliente();
 
         public winClientes()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
+        private void btnGuardar_Click(object sender, RoutedEventArgs e)
         {
             MessageBoxResult result = MessageBox.Show("Desea guardar los datos cargados?", "Guardar", MessageBoxButton.YesNo, MessageBoxImage.Question);
             if (result == MessageBoxResult.Yes)
             {
-                MessageBox.Show("Apellido/s: " + txtApellidos.Text + "\nNombre/s: " + txtNombres.Text + "\nDomicilio: " + txtDomicilio.Text + "\nTelefono: " + txtTel.Text + "\nE-mail: " + txtMail.Text);
+                Cliente oCliente = new Cliente();
+
+                oCliente.Cli_Apellido = txtApellidos.Text;
+                oCliente.Cli_Nombre = txtNombres.Text;
+                oCliente.Cli_Domicilio = txtDomicilio.Text;
+                oCliente.Cli_Email = txtMail.Text;
+                oCliente.Cli_Telefono = Convert.ToInt32(txtTel.Text.ToString());
+
+                MessageBox.Show("Apellido/s: " + oCliente.Cli_Apellido + "\nNombre/s: " + oCliente.Cli_Nombre + "\nDomicilio: " + oCliente.Cli_Domicilio + "\nTelefono: " + oCliente.Cli_Telefono + "\nE-mail: " + oCliente.Cli_Email);
             }
         }
     }

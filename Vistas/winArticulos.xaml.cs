@@ -19,9 +19,6 @@ namespace Vistas
     /// </summary>
     public partial class winArticulos : Window
     {
-        Articulos oArticulos = new Articulos();
-        
-
         public winArticulos()
         {
             InitializeComponent();
@@ -29,13 +26,11 @@ namespace Vistas
 
         private void btnGuardar_Click(object sender, RoutedEventArgs e)
         {
-            //oArticulos.Fam_ID = cboFlia.SelectedValue;
-            //oArticulos.Art_Precio = Convert.ToInt32(txtPrecio.Text);
-            //oArticulos.Art_Descrip = txtDescripcion.Text;
-
             MessageBoxResult result = MessageBox.Show("Desea guardar los datos cargados?", "Guardar", MessageBoxButton.YesNo, MessageBoxImage.Question);
             if (result == MessageBoxResult.Yes){
-                MessageBox.Show("Familia: " + cboFlia.SelectedValue + "\nUnidad de medida: " + cboMedida.SelectedValue + "\nPrecio: " + txtPrecio.Text + "\nStock: " + chkStock.IsChecked + "\nDescripcion: " + oArticulos.Art_Descrip);
+                Articulos oArticulo = new Articulos();
+
+                MessageBox.Show("Familia: " + cboFlia.SelectedValue + "\nUnidad de medida: " + cboMedida.SelectedValue + "\nPrecio: " + txtPrecio.Text + "\nStock: " + chkStock.IsChecked + "\nDescripcion: " + oArticulo.Art_Descrip);
             }
             
         }

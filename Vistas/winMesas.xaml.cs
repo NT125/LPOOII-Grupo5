@@ -34,7 +34,7 @@ namespace Vistas
         private void preguntarMesa(object sender, RoutedEventArgs e)
         {
            
-            Button mesa=sender as Button;
+            Button mesa = sender as Button;
 
 
             if (mesa.Background == Brushes.Tomato){
