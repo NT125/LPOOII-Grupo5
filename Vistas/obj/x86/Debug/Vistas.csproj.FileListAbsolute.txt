@@ -180,3 +180,16 @@ C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOO
 C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
 C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\StylesLabelsForm.baml
 C:\Users\yidcc\OneDrive\Documentos\APU III\2 cuatrimestre\LPOO II\PROYECTOS\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\StylesTextBoxForm.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\StylesLabelsForm.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\StylesTextBoxForm.baml
+C:\Users\danie\Desktop\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\StylesButtonForm.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\Dictionary1.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\StylesButtonForm.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\StylesLabelsForm.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Styles\StylesTextBoxForm.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winArticulos.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winClientes.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\App.baml
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winArticulos.g.cs
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\winClientes.g.cs
+D:\-N-\Trabajos\3° APU\LPOO II\TRABAJO PRÁCTICO\LPOOII-Grupo5\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref

@@ -31,8 +31,8 @@
                         <Button Background="{TemplateBinding Background}" Margin="10,5" MaxWidth="150">
                             <Grid>
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="80*" />
-                                    <RowDefinition Height="220*" />
+                                    <RowDefinition Height="100*" />
+                                    <RowDefinition Height="200*" />
                                 </Grid.RowDefinitions>
                                 <TextBlock FontFamily="Arial" Foreground="Black" Height="Auto" HorizontalAlignment="Center" Name="textBlock1" Text="{TemplateBinding Content}" FontSize="15" VerticalAlignment="Stretch"/>
                                 <Image Grid.Row="1" Name="image1" Source="/Vistas;component/Images/mesita.png"/>

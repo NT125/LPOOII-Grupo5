@@ -32,8 +32,8 @@
 
             <TextBox Grid.Row="4" Name="txtUserLogin" FontFamily="FreeSans" FontSize="16" Foreground="#EEEEEE" BorderBrush="#ffd46f" Height="35" Width="240" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black" GotFocus="UsrGotFocus" LostFocus="UsrLostFocus" />
             <PasswordBox Grid.Row="5" Name="pwdPassLogin" FontFamily="FreeSans" FontSize="16" Foreground="#EEEEEE" BorderBrush="#ffd46f" Height="35" Width="240" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black" GotFocus="PwdGotFocus" LostFocus="PwdLostFocus" />
-            
-            <Button Grid.Row="6" Height="40" Width="120" FontFamily="FreeSans" FontSize="14" HorizontalAlignment="center" VerticalAlignment="center" Content="Iniciar Sesión" Click="login" BorderBrush="Black" Background="#121212" Foreground="#eeeeee"/>
+
+            <Button Grid.Row="6" Height="40" Width="120" Content="Iniciar Sesión" Click="login" Style="{StaticResource ButtonFormBlack}"/>
 
         </Grid>
     </Grid>

@@ -34,19 +34,6 @@ namespace Vistas
         }
 
 
-        private void informacionClick(object sender, RoutedEventArgs e)
-        {
-            if (rb1.IsChecked == true)
-            {
-
-            }
-            else
-            {
-
-            }
-           
-        }
-
         private void rb1_MouseEnter(object sender, MouseEventArgs e)
         {
             ocultarGrid();
@@ -99,7 +86,61 @@ namespace Vistas
             grdUnidad.Visibility = System.Windows.Visibility.Collapsed;
         }
 
+        private void moveWindow(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                DragMove();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
 
+        private void minimizeWindow(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                this.WindowState = WindowState.Minimized;
+            }
+            catch (Exception ex)
+            {
+
+                //throw;
+            }
+        }
+
+        private void closeWindow(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                Close();
+            }
+            catch (Exception ex)
+            {
+
+                //throw;
+            }
+        }
+
+        private void rb3_Click(object sender, RoutedEventArgs e)
+        {
+            winArticulos winArticulos = new winArticulos();
+            winArticulos.Show();
+        }
+
+        private void rb6_Click(object sender, RoutedEventArgs e)
+        {
+            winMesas winMesas = new winMesas();
+            winMesas.Show();
+        }
+
+        private void rb5_Click(object sender, RoutedEventArgs e)
+        {
+            winClientes winClientes = new winClientes();
+            winClientes.Show();
+        }
 
 
     }

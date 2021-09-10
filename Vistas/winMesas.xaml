@@ -2,8 +2,14 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:CD="clr-namespace:Vistas"
-        Title="winMesas" Height="450" Width="454" Background="#FF313131" MinHeight="450" MinWidth="454">
-    <Grid >
+        Title="winMesas" Height="450"  MouseLeftButtonDown="moveWindow" Width="454" Background="#FF313131" MinHeight="450" MinWidth="454" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DockPanel Height="40" Name="dockPanel1" Width="auto" HorizontalAlignment="Stretch" VerticalAlignment="Top" FlowDirection="RightToLeft">
+            <Ellipse Height="15" HorizontalAlignment="Right" Name="btnClose" Fill="#FFFF4B6A" Width="15" Margin="10,0,5,0" MouseLeftButtonDown="closeWindow"/>
+            <Ellipse Height="15" HorizontalAlignment="Left" Name="btnMaximize" Fill="#EEEEEE" Width="15" Margin="5,0,5,0"  MouseLeftButtonDown="minimizeWindow"/>
+            <Label Name="lblWinTitle" Content="HOLDEM - Sistema de Administración" Padding="20,0" HorizontalAlignment="Right" FontFamily="FreeSans" FontSize="12" VerticalContentAlignment="Center" Foreground="#EEEEEE"/>
+        </DockPanel>
+        <Grid Margin="0,40,0,0">
         <Grid.RowDefinitions>
             <RowDefinition Height="41*" />
             <RowDefinition Height="320*" />
@@ -68,5 +74,5 @@
         </StackPanel>
         
     </Grid>
-    
+    </Grid>
 </Window>
